@@ -1,0 +1,21 @@
+# Created with komac v2.1.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: GnuCash.GnuCash
+PackageVersion: '5.9'
+Platform:
+- Windows.Desktop
+InstallerType: inno
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ReleaseDate: 2024-09-28
+Installers:
+- Architecture: x86
+  InstallerUrl: https://github.com/Gnucash/gnucash/releases/download/5.9/gnucash-5.9.setup.exe
+  InstallerSha256: 18882e68d445c32b7f06c58a55b6b81480cef4fdf6e159e8d628040357479b86
+ManifestType: installer
+ManifestVersion: 1.6.0
